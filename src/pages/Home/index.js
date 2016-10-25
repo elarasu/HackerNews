@@ -12,7 +12,6 @@ import NewsList from './news';
 const networkInterface = createNetworkInterface('https://www.graphqlhub.com/graphql');
 client = new ApolloClient({
   networkInterface,
-  //dataIdFromObject: r => r.id,
 });
 
 class Home extends Component {  

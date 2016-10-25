@@ -2,23 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import { graphql, ApolloProvider } from 'react-apollo';
 import gql from 'graphql-tag';
 
-const styles = {
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    outer: { paddingTop: 32, paddingLeft: 10, paddingRight: 10 },
-    header: { fontSize: 17, marginBottom: 15 },
-};
-
-import { StyleSheet } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-
 import { Page } from 'HackerNews/src/components';
-
-import ApolloClient, { createNetworkInterface } from 'apollo-client';
-import { ScrollView } from 'react-native';
 
 import {
     Image,
@@ -66,20 +51,13 @@ function timeSince(date) {
 // The data prop, which is provided by the wrapper below contains,
 // a `loading` key while the query is in flight and posts when ready
 class NewsList extends Component {
-    constructor(props) {
-        super(props);
-        this.renderRow = this.renderRow.bind(this);
-    }
-    getNews() {
-        return require('../../../topstories.json');
-    }
 
     renderRow(news) {
-        const { onButtonPress } = this.props;
-
         return (
             <TouchableOpacity onPress={() => {
-                Actions.article({ data: news });
+                if (news.url) {
+                    Actions.article({ data: news });
+                }
             } }>
                 <View style={{ margin: 10 }}>
                     <Subtitle>{news.title}</Subtitle>
@@ -94,29 +72,26 @@ class NewsList extends Component {
     }
 
     render() {
-        return (
-            <ListView
-                data={this.getNews()}
-                renderRow={news => this.renderRow(news)}
-                />
-        );
+        if (this.props.loading) {
+            return (
+                <Text>Loading...</Text>
+            );
+        } else {
+            return (
+                <ListView
+                    data={this.props.articles}
+                    renderRow={news => this.renderRow(news)}
+                    />
+            );
+        }
     }
 }
 
 NewsList.propTypes = {
-    onButtonPress: React.PropTypes.func,
-    //     loading: PropTypes.bool.isRequired,
-    //     proverb: PropTypes.string,
-    //     refresh: PropTypes.func,
+    loading: PropTypes.bool.isRequired,
+    articles: PropTypes.array,
+    refresh: PropTypes.func,
 };
-
-const mapDispatchToProps = (dispatch) => ({
-    onButtonPress: (newsItem) => {
-        //dispatch(navigatePush({ key: 'RestaurantDetails', title: 'Details' }, { restaurant }));
-        alert(newsItem);
-    },
-});
-
 
 const HN_QUERY = gql`
       {
@@ -135,12 +110,13 @@ const HN_QUERY = gql`
       }
 `;
 
-const hNewsGraphQuery = graphql(HN_QUERY)(NewsList);
-
-//export default hNewsGraphQuery;
-export default NewsList;
-// export default connect(
-// 	undefined,
-// 	mapDispatchToProps
-// )(RestaurantsList);
+const hNewsGraphQuery = graphql(HN_QUERY, {
+    props: ({ ownProps, data: { loading, hn, refetch}}) => ({
+        loading: loading,
+        articles: loading ? null : hn.topStories,
+        refresh: refetch,
+    }),
+})(NewsList);
+export default hNewsGraphQuery;
+//export default NewsList;
 
