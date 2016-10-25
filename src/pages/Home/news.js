@@ -79,7 +79,6 @@ class NewsList extends Component {
 
         return (
             <TouchableOpacity onPress={() => {
-                alert(news.url);
                 Actions.article({ data: news });
             } }>
                 <View style={{ margin: 10 }}>

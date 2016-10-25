@@ -19,10 +19,12 @@ Following links were very useful in getting this sample up and running
   * http://clearbridgemobile.com/how-to-submit-an-app-to-the-app-store/
 
 ## Todo
+  * hookup to graphql
+  * add logo
+  * add pull to refresh
   * add hackernews list
   * scroll down to auto fetch more 
   * display list neatly
-  * add logo
   * lint and clean unwanted/unused code
   * auto update using codepush
   * add unit tests
