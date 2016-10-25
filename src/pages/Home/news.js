@@ -78,7 +78,10 @@ class NewsList extends Component {
         const { onButtonPress } = this.props;
 
         return (
-            <TouchableOpacity onPress={() => alert(news.url)}>
+            <TouchableOpacity onPress={() => {
+                alert(news.url);
+                Actions.article({ data: news });
+            } }>
                 <View style={{ margin: 10 }}>
                     <Subtitle>{news.title}</Subtitle>
                     <View styleName="horizontal space-between">
@@ -103,16 +106,16 @@ class NewsList extends Component {
 
 NewsList.propTypes = {
     onButtonPress: React.PropTypes.func,
-//     loading: PropTypes.bool.isRequired,
-//     proverb: PropTypes.string,
-//     refresh: PropTypes.func,
+    //     loading: PropTypes.bool.isRequired,
+    //     proverb: PropTypes.string,
+    //     refresh: PropTypes.func,
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  onButtonPress: (newsItem) => {
-    //dispatch(navigatePush({ key: 'RestaurantDetails', title: 'Details' }, { restaurant }));
-    alert(newsItem);
-  },
+    onButtonPress: (newsItem) => {
+        //dispatch(navigatePush({ key: 'RestaurantDetails', title: 'Details' }, { restaurant }));
+        alert(newsItem);
+    },
 });
 
 

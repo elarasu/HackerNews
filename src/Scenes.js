@@ -41,6 +41,11 @@ const Scenes = () => (
         component={Pages.Infos}
         title="About"
         />
+      <Scene
+        key="article"
+        component={Pages.Article}
+        title="Article"
+        />
     </Scene>
   </Router>
 );
