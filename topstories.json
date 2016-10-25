@@ -7,41 +7,9 @@
             "id": "bentlegen"
           },
           "time": 1477356410,
-          "score": 268,
-          "descendants": 201
-        },
-        {
-          "id": "12784556",
-          "title": "Microsoft Cognitive Services",
-          "type": "story",
-          "by": {
-            "id": "igravious"
-          },
-          "time": 1477359539,
-          "score": 107,
-          "descendants": 30
-        },
-        {
-          "id": "12783040",
-          "title": "Apple Introduces What It Calls an Easier to Use Portable Music Player (2001)",
-          "type": "story",
-          "by": {
-            "id": "daschaefer"
-          },
-          "time": 1477344139,
-          "score": 235,
-          "descendants": 168
-        },
-        {
-          "id": "12783913",
-          "title": "IHaskell: A Haskell kernel for IPython",
-          "type": "story",
-          "by": {
-            "id": "sndean"
-          },
-          "time": 1477352539,
-          "score": 46,
-          "descendants": 8
+          "score": 300,
+          "descendants": 215,
+          "url": "https://www.bloomberg.com/news/articles/2016-10-25/twitter-said-to-plan-hundreds-more-job-cuts-as-soon-as-this-week"
         },
         {
           "id": "12785320",
@@ -51,8 +19,45 @@
             "id": "cheiVia0"
           },
           "time": 1477370067,
-          "score": 29,
-          "descendants": 12
+          "score": 63,
+          "descendants": 40,
+          "url": "https://chris-lamb.co.uk/posts/concorde"
+        },
+        {
+          "id": "12784556",
+          "title": "Microsoft Cognitive Services",
+          "type": "story",
+          "by": {
+            "id": "igravious"
+          },
+          "time": 1477359539,
+          "score": 120,
+          "descendants": 36,
+          "url": "http://projectoxford.ai/"
+        },
+        {
+          "id": "12783040",
+          "title": "Apple Introduces What It Calls an Easier to Use Portable Music Player (2001)",
+          "type": "story",
+          "by": {
+            "id": "daschaefer"
+          },
+          "time": 1477344139,
+          "score": 249,
+          "descendants": 178,
+          "url": "http://www.nytimes.com/2001/10/24/business/technology-apple-introduces-what-it-calls-an-easier-to-use-portable-music-player.html"
+        },
+        {
+          "id": "12783913",
+          "title": "IHaskell: A Haskell kernel for IPython",
+          "type": "story",
+          "by": {
+            "id": "sndean"
+          },
+          "time": 1477352539,
+          "score": 55,
+          "descendants": 8,
+          "url": "https://github.com/gibiansky/IHaskell"
         },
         {
           "id": "12784295",
@@ -62,19 +67,9 @@
             "id": "edmorley"
           },
           "time": 1477356625,
-          "score": 103,
-          "descendants": 14
-        },
-        {
-          "id": "12783673",
-          "title": "Keras-based molecular autoencoder",
-          "type": "story",
-          "by": {
-            "id": "frisco"
-          },
-          "time": 1477350056,
-          "score": 77,
-          "descendants": 27
+          "score": 115,
+          "descendants": 18,
+          "url": "https://groups.google.com/a/chromium.org/forum/#!msg/ct-policy/78N3SMcqUGw/ykIwHXuqAQAJ"
         },
         {
           "id": "12783898",
@@ -84,8 +79,33 @@
             "id": "zdw"
           },
           "time": 1477352418,
-          "score": 50,
-          "descendants": 11
+          "score": 62,
+          "descendants": 14,
+          "url": "http://www.webbloatscore.com"
+        },
+        {
+          "id": "12786196",
+          "title": "PlanGrid (YC W12) Is Hiring Full Stack, Front End, iOS Engineers and More",
+          "type": "job",
+          "by": {
+            "id": "tyoung"
+          },
+          "time": 1477384228,
+          "score": 1,
+          "descendants": null,
+          "url": "https://www.plangrid.com/jobs/"
+        },
+        {
+          "id": "12783673",
+          "title": "Keras-based molecular autoencoder",
+          "type": "story",
+          "by": {
+            "id": "frisco"
+          },
+          "time": 1477350056,
+          "score": 85,
+          "descendants": 27,
+          "url": "https://github.com/maxhodak/keras-molecules"
         },
         {
           "id": "12784018",
@@ -95,8 +115,9 @@
             "id": "taylorbuley"
           },
           "time": 1477353693,
-          "score": 29,
-          "descendants": 9
+          "score": 35,
+          "descendants": 10,
+          "url": "http://futurism.com/new-tech-could-let-devices-function-for-years-without-a-battery/"
         },
         {
           "id": "12784307",
@@ -106,8 +127,9 @@
             "id": "sohkamyung"
           },
           "time": 1477356833,
-          "score": 53,
-          "descendants": 35
+          "score": 56,
+          "descendants": 41,
+          "url": "http://spectrum.ieee.org/computing/networks/social-medias-dialup-ancestor-the-bulletin-board-system"
         },
         {
           "id": "12784236",
@@ -117,30 +139,9 @@
             "id": "danielmorozoff"
           },
           "time": 1477355875,
-          "score": 67,
-          "descendants": 33
-        },
-        {
-          "id": "12780345",
-          "title": "One Doom fan, 300 hours, and one gargantuan level",
-          "type": "story",
-          "by": {
-            "id": "uptown"
-          },
-          "time": 1477326750,
-          "score": 185,
-          "descendants": 72
-        },
-        {
-          "id": "12783772",
-          "title": "PCem: emulates IBM PC compatible from 1981 until 1999",
-          "type": "story",
-          "by": {
-            "id": "vmorgulis"
-          },
-          "time": 1477351079,
-          "score": 41,
-          "descendants": 20
+          "score": 70,
+          "descendants": 35,
+          "url": "http://www.cambridgeday.com/2016/10/23/harvard-square-classic-cafe-algiers-closing-forever-sunday-after-abrupt-announcement/"
         },
         {
           "id": "12785457",
@@ -150,118 +151,9 @@
             "id": "prismatic"
           },
           "time": 1477372186,
-          "score": 6,
-          "descendants": 2
-        },
-        {
-          "id": "12785881",
-          "title": "Ask HN: Has anyone learned programming entirely from watching videos?",
-          "type": "story",
-          "by": {
-            "id": "Onixelen"
-          },
-          "time": 1477379462,
-          "score": 4,
-          "descendants": 4
-        },
-        {
-          "id": "12785113",
-          "title": "Amazing Mechanical Torpedo Data Computer (Mark 3 – 1944)",
-          "type": "story",
-          "by": {
-            "id": "abrax3141"
-          },
-          "time": 1477366875,
-          "score": 16,
-          "descendants": 2
-        },
-        {
-          "id": "12784121",
-          "title": "JsonLogic – Build complex rules, serialize them as JSON",
-          "type": "story",
-          "by": {
-            "id": "dchuk"
-          },
-          "time": 1477354860,
-          "score": 84,
-          "descendants": 59
-        },
-        {
-          "id": "12781833",
-          "title": "Poor kids who do things right don't do better than rich kids who do things wrong",
-          "type": "story",
-          "by": {
-            "id": "paulpauper"
-          },
-          "time": 1477336134,
-          "score": 295,
-          "descendants": 217
-        },
-        {
-          "id": "12782924",
-          "title": "IPFS-Screenshot – Like Cloudapp but with IPFS",
-          "type": "story",
-          "by": {
-            "id": "uptownhr"
-          },
-          "time": 1477343342,
-          "score": 72,
-          "descendants": 17
-        },
-        {
-          "id": "12782881",
-          "title": "Show HN: A Simple Highway Simulator",
-          "type": "story",
-          "by": {
-            "id": "Silvanm"
-          },
-          "time": 1477343056,
-          "score": 134,
-          "descendants": 26
-        },
-        {
-          "id": "12785068",
-          "title": "Steven DenBeste has passed away",
-          "type": "story",
-          "by": {
-            "id": "cagey"
-          },
-          "time": 1477366355,
-          "score": 15,
-          "descendants": 1
-        },
-        {
-          "id": "12782888",
-          "title": "A Taste of Haskell",
-          "type": "story",
-          "by": {
-            "id": "def-"
-          },
-          "time": 1477343089,
-          "score": 100,
-          "descendants": 70
-        },
-        {
-          "id": "12781447",
-          "title": "We Got Phished",
-          "type": "story",
-          "by": {
-            "id": "juanplusjuan"
-          },
-          "time": 1477333799,
-          "score": 309,
-          "descendants": 137
-        },
-        {
-          "id": "12785476",
-          "title": "OneSignal Is Hiring a Technical Account Manager",
-          "type": "job",
-          "by": {
-            "id": "gdeglin"
-          },
-          "time": 1477372315,
-          "score": 1,
-          "descendants": null
+          "score": 12,
+          "descendants": 2,
+          "url": "http://www.nytimes.com/2016/10/23/arts/design/the-mission-to-save-vanishing-internet-art.html"
         },
         {
           "id": "12785814",
@@ -271,8 +163,105 @@
             "id": "mirceasoaica"
           },
           "time": 1477378102,
-          "score": 7,
-          "descendants": 0
+          "score": 32,
+          "descendants": 31,
+          "url": null
+        },
+        {
+          "id": "12783772",
+          "title": "PCem: emulates IBM PC compatible from 1981 until 1999",
+          "type": "story",
+          "by": {
+            "id": "vmorgulis"
+          },
+          "time": 1477351079,
+          "score": 50,
+          "descendants": 22,
+          "url": "http://pcem-emulator.co.uk/"
+        },
+        {
+          "id": "12785113",
+          "title": "Amazing Mechanical Torpedo Data Computer (Mark 3 – 1944)",
+          "type": "story",
+          "by": {
+            "id": "abrax3141"
+          },
+          "time": 1477366875,
+          "score": 19,
+          "descendants": 4,
+          "url": "http://maritime.org/doc/tdc/index.htm#toc"
+        },
+        {
+          "id": "12784121",
+          "title": "JsonLogic – Build complex rules, serialize them as JSON",
+          "type": "story",
+          "by": {
+            "id": "dchuk"
+          },
+          "time": 1477354860,
+          "score": 92,
+          "descendants": 64,
+          "url": "http://jsonlogic.com/operations.html"
+        },
+        {
+          "id": "12785068",
+          "title": "Steven DenBeste has passed away",
+          "type": "story",
+          "by": {
+            "id": "cagey"
+          },
+          "time": 1477366355,
+          "score": 20,
+          "descendants": 2,
+          "url": "http://brickmuppet.mee.nu/steven_denbeste_1952-2016"
+        },
+        {
+          "id": "12781833",
+          "title": "Poor kids who do things right don't do better than rich kids who do things wrong",
+          "type": "story",
+          "by": {
+            "id": "paulpauper"
+          },
+          "time": 1477336134,
+          "score": 308,
+          "descendants": 232,
+          "url": "https://www.washingtonpost.com/news/wonk/wp/2014/10/18/poor-kids-who-do-everything-right-dont-do-better-than-rich-kids-who-do-everything-wrong/"
+        },
+        {
+          "id": "12785879",
+          "title": "Brexit Britain: Microsoft hikes U.K. prices by 22%",
+          "type": "story",
+          "by": {
+            "id": "sghi"
+          },
+          "time": 1477379434,
+          "score": 24,
+          "descendants": 10,
+          "url": "http://money.cnn.com/2016/10/24/technology/microsoft-prices-brexit-uk/index.html"
+        },
+        {
+          "id": "12782924",
+          "title": "IPFS-Screenshot – Like Cloudapp but with IPFS",
+          "type": "story",
+          "by": {
+            "id": "uptownhr"
+          },
+          "time": 1477343342,
+          "score": 75,
+          "descendants": 19,
+          "url": "https://github.com/uptownhr/ipfs-screenshot"
+        },
+        {
+          "id": "12782881",
+          "title": "Show HN: A Simple Highway Simulator",
+          "type": "story",
+          "by": {
+            "id": "Silvanm"
+          },
+          "time": 1477343056,
+          "score": 144,
+          "descendants": 32,
+          "url": "http://muehlemann.com/highwaysim"
         },
         {
           "id": "12778836",
@@ -282,8 +271,21 @@
             "id": "karim"
           },
           "time": 1477317776,
-          "score": 809,
-          "descendants": 399
+          "score": 826,
+          "descendants": 400,
+          "url": null
+        },
+        {
+          "id": "12781447",
+          "title": "We Got Phished",
+          "type": "story",
+          "by": {
+            "id": "juanplusjuan"
+          },
+          "time": 1477333799,
+          "score": 315,
+          "descendants": 137,
+          "url": "https://www.exploratorium.edu/blogs/tangents/we-got-phished-2"
         },
         {
           "id": "12780985",
@@ -293,8 +295,21 @@
             "id": "thetopher"
           },
           "time": 1477330784,
-          "score": 94,
-          "descendants": 124
+          "score": 100,
+          "descendants": 133,
+          "url": "http://www.bbc.com/future/story/20161020-can-you-hurt-yourself-eating-chilli-peppers"
+        },
+        {
+          "id": "12782888",
+          "title": "A Taste of Haskell",
+          "type": "story",
+          "by": {
+            "id": "def-"
+          },
+          "time": 1477343089,
+          "score": 111,
+          "descendants": 80,
+          "url": "https://hookrace.net/blog/a-taste-of-haskell/"
         },
         {
           "id": "12779571",
@@ -304,8 +319,9 @@
             "id": "ernestipark"
           },
           "time": 1477322434,
-          "score": 509,
-          "descendants": 133
+          "score": 516,
+          "descendants": 135,
+          "url": "http://initialized.com/"
         },
         {
           "id": "12779934",
@@ -315,19 +331,32 @@
             "id": "mweibel"
           },
           "time": 1477324501,
-          "score": 383,
-          "descendants": 257
+          "score": 393,
+          "descendants": 265,
+          "url": "https://jakubmarian.com/the-432-hz-vs-440-hz-conspiracy-theory"
         },
         {
-          "id": "12785200",
-          "title": "What’s wrong with Git? A conceptual design analysis",
+          "id": "12776045",
+          "title": "What Libraries Can (Still) Do (2015)",
           "type": "story",
           "by": {
-            "id": "colinprince"
+            "id": "diodorus"
           },
-          "time": 1477368140,
-          "score": 39,
-          "descendants": 20
+          "time": 1477267642,
+          "score": 40,
+          "descendants": 10,
+          "url": "http://www.nybooks.com/daily/2015/10/26/what-libraries-can-still-do-bibliotech/"
+        },
+        {
+          "id": "12780563",
+          "title": "Intrinsic: An Open-Source, Cross-Platform Vulkan Game Engine",
+          "type": "story",
+          "by": {
+            "id": "Jarlakxen"
+          },
+          "time": 1477328047,
+          "score": 54,
+          "descendants": 9,
+          "url": "http://www.intrinsic-engine.com/intrinsic-available/"
         }
       ]
-    
