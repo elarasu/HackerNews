@@ -1,8 +1,12 @@
 import React from 'react';
-import { View, Image, Text, StyleSheet } from 'react-native';
+import { View, Image, StyleSheet } from 'react-native';
 
 import logo from 'HackerNews/src/assets/logo.png';
 import appStyle from 'HackerNews/src/appStyle';
+import {
+  Title,
+} from '@shoutem/ui';
+
 
 const styles = StyleSheet.create({
   container: {
@@ -19,7 +23,7 @@ const styles = StyleSheet.create({
 
 const LogoTitle = () => (
   <View style={styles.container}>
-    <Image source={logo} style={styles.image} />
+    <Title style={{marginTop:7}}>HackerNews</Title>
   </View>
 );
 
