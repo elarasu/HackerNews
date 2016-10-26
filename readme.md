@@ -6,6 +6,14 @@ A very simple straightforward hackernews client. Using this as playground to lea
 ## Pre-requisites
 Please refer to react-native documentation on how to setup and run applications.
 
+### Build instructions
+  * npm install
+  * yo rn-toolbox:assets --icon src/assets/logo.png
+  * yo rn-toolbox:assets  --splash src/assets/hnsplash.png
+  * ios project needs to be opened and name has to be set correctly
+  * react-native bundle --platform ios --dev false --entry-file index.ios.js --bundle-output iOS/main.jsbundle
+  * on ios run as 'Release'
+
 ### Uses
   * react-native
   * graphql (apollo-client)
