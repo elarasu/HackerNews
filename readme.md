@@ -17,6 +17,7 @@ Following links were very useful in getting this sample up and running
   * https://github.com/stubailo/microhn
   * https://github.com/bamlab/generator-rn-toolbox
   * http://clearbridgemobile.com/how-to-submit-an-app-to-the-app-store/
+
 ### Creating assets
   * https://www.shopify.com/tools/logo-maker
   * https://www.befunky.com/create/designer/
@@ -41,9 +42,10 @@ Following links were very useful in getting this sample up and running
   * store the state of what has been refreshed and read within app
   * allow adding comments
   * allow pining articles
+  * add screenshots to this project page
   * reduce size
     * remove fonts ?
     * clean size of assets?
 
 ## Release Notes
-  * 0.0.1 initial release
+  * 0.0.1 initial release - basic top 20 news articles work
