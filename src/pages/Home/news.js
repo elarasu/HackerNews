@@ -51,7 +51,6 @@ function timeSince(date) {
 // The data prop, which is provided by the wrapper below contains,
 // a `loading` key while the query is in flight and posts when ready
 class NewsList extends Component {
-
     renderRow(news) {
         return (
             <TouchableOpacity onPress={() => {
@@ -72,19 +71,14 @@ class NewsList extends Component {
     }
 
     render() {
-        if (this.props.loading) {
-            return (
-                <Text>Loading...</Text>
-            );
-        } else {
             return (
                 <ListView
+                    loading={this.props.loading}
                     data={this.props.articles}
                     renderRow={news => this.renderRow(news)}
                     />
             );
         }
-    }
 }
 
 NewsList.propTypes = {
@@ -113,10 +107,8 @@ const HN_QUERY = gql`
 const hNewsGraphQuery = graphql(HN_QUERY, {
     props: ({ ownProps, data: { loading, hn, refetch}}) => ({
         loading: loading,
-        articles: loading ? null : hn.topStories,
+        articles: loading ? [] : hn.topStories,
         refresh: refetch,
     }),
 })(NewsList);
 export default hNewsGraphQuery;
-//export default NewsList;
-
