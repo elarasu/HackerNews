@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">q-2zUTAsENEnouLmN_eiHas12tJ04kGpS0Xab</string>
     <string name="app_name">HackerNews</string>
 </resources>

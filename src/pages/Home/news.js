@@ -14,9 +14,7 @@ import {
     Title,
     Subtitle,
     TouchableOpacity,
-    Text,
-    Screen,
-    Caption, Button, Icon
+    Caption
 } from '@shoutem/ui';
 
 

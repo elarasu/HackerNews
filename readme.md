@@ -31,7 +31,6 @@ Following links were very useful in getting this sample up and running
   * https://www.befunky.com/create/designer/
 
 ## Todo
-  * fix spinner
   * setup version number cleanly across the board - including about
   * verify android release
   * add pull to refresh
